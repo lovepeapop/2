@@ -1477,7 +1477,7 @@ def lineBot(op):
                             targets.append(g.mid)
                     if targets == []:
                         line.sendText(msg.to,"Contact not found")
-                    else: ' รัน @'
+                    else: 'รัน @'
                         for target in targets:
                             try:
                                thisgroup = line.getGroups([msg.to])
